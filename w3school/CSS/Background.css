@@ -1,0 +1,24 @@
+
+ #un1 {
+    background-image: url("images/smiley.gif");
+    color: black;
+    /* Repeat image horizontally */
+    /* background-repeat: repeat-x; */
+        /* Repeat image vertically */
+    /* background-repeat: repeat-y; */
+    /* No repetation */
+    /* background-repeat: no-repeat; */
+    /*The background-attachment property specifies whether the background image should scroll 
+    or be fixed (will not scroll with the rest of the page):*/
+    background-attachment: fixed;
+} 
+/* When using the shorthand property the order of the property values is:
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position */
+ #img{
+    background: white url("images/discoball.png") no-repeat fixed center;
+  } 
