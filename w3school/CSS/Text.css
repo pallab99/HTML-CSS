@@ -1,0 +1,111 @@
+div.ex1 {
+    background-color: blue;
+    color: white;
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: center; */
+    text-align: justify;
+}
+
+/* The text-align-last property specifies how to align the last line of a text. */
+
+div.ex2 {
+    background-color: blue;
+    color: white;
+    text-align-last: center;
+}
+
+p.ex3 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+img.a {
+    vertical-align: baseline;
+}
+img.b {
+    vertical-align: text-top;
+}
+img.c {
+    vertical-align: text-bottom;
+}
+img.d {
+    vertical-align: sub;
+}
+img.e {
+    vertical-align: super;
+}
+
+p.txtdec {
+    /* text-decoration-line: line-through; */
+    text-decoration-line: overline;
+    /* text-decoration-line:underline; */
+    /* text-decoration-line: overline underline; */
+    text-decoration-color: blue;
+    /* text-decoration-style: solid; */
+    /* text-decoration-style: double; */
+    /* text-decoration-style: dashed; */
+    /* text-decoration-style: dotted; */
+    text-decoration-style: wavy;
+    /* text-decoration-thickness: auto; */
+    /* text-decoration-thickness: 5px; */
+    text-decoration-thickness: 25%;
+}
+
+/* The text-decoration property is a shorthand property for:
+
+text-decoration-line (required)
+text-decoration-color (optional)
+text-decoration-style (optional)
+text-decoration-thickness (optional) */
+
+p.txtdec1 {
+    text-decoration: overline blue dotted 5px;
+}
+
+/* A Small Tip
+All links in HTML are underlined by default. Sometimes you see that links are styled with no underline.
+ The text-decoration: none; is used to remove the underline from links, like this: */
+
+a {
+    text-decoration: none;
+}
+
+p.upper {
+    text-transform: uppercase;
+}
+
+p.lower {
+    text-transform: lowercase;
+}
+
+p.capital {
+    text-transform: capitalize;
+}
+
+/* The text-indent property is used to specify the indentation of the first line of a text: */
+
+p.txtindent {
+    text-indent: 50px;
+}
+
+/* The letter-spacing property is used to specify the space between the characters in a text. */
+
+p.letterspacing {
+    letter-spacing: 5px;
+    /* letter-spacing: -2px; */
+}
+
+/* The line-height property is used to specify the space between lines: */
+
+p.line-height {
+    line-height: 2;
+}
+
+/* The word-spacing property is used to specify the space between the words in a text. */
+
+p.one {
+    word-spacing: 20px;
+    }
+h1.shadow{
+    text-shadow: 2px 2px 5px blue;
+}
