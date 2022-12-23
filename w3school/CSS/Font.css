@@ -1,0 +1,50 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Sofia');
+/* @import url('https://fonts.googleapis.com/css?family=Trirong&effect=fire'); */
+@import url('https://fonts.googleapis.com/css?family=Sofia&effect=fire');
+p.p1{
+    font-family: "Audiowide",'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px blue;
+}
+p.p2{
+    font-family: "Sofia", sans-serif;
+  font-size: 30px;
+    /* font-family: "Sofia",sans; */
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    /* font-variant: small-caps; */
+    /* The text size can be set with a vw unit, which means the "viewport width". */
+    /* font-size: 10vw; */
+    /* font-size: 20px; */
+}
+p.p3{
+    font-family:"Trirong";
+    /* font-style: oblique; */
+    /* font-weight: bolder; */
+}
+h1.head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+div.ex1{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: 30px;
+}
+
+/* The font property is a shorthand property for:
+
+font-style
+font-variant
+font-weight
+font-size/line-height
+font-family
+Note: The font-size and font-family values are required. If one of the other values is missing, their default value are used. */
+p.a{
+    font:italic bold normal 20px verdana;
+}
