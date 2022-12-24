@@ -1,0 +1,46 @@
+ul.a {
+    list-style-type: circle;
+}
+ul.b {
+    list-style-type: square;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+ol.d {
+    list-style-type: lower-latin;
+}
+
+ul.e {
+    list-style-image: url("smiley.gif");
+}
+ul.f {
+    list-style-position: outside;
+}
+ul.g {
+    list-style-position: inside;
+}
+
+ul.h {
+    background: #ff9999;
+    padding: 20px;
+}
+
+ul.i {
+    background: #3399ff;
+    padding: 20px;
+}
+
+ul.h li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ul.i li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+}
