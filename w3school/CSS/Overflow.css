@@ -1,0 +1,36 @@
+div.a{
+    background-color: coral;
+    height: 65px;
+    width: 200px;
+    border: 1px solid;
+    overflow: visible;
+}
+div.b{
+    background-color: coral;
+    height: 65px;
+    width: 200px;
+    border: 1px solid;
+    overflow: hidden;
+}
+div.c{
+    background-color: coral;
+    height: 65px;
+    width: 200px;
+    border: 1px solid;
+    overflow: scroll;
+}
+div.d{
+    background-color: coral;
+    height: 65px;
+    width: 200px;
+    border: 1px solid;
+    overflow: auto;
+}
+div.e{
+    background-color: coral;
+    height: 65px;
+    width: 200px;
+    border: 1px solid;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
