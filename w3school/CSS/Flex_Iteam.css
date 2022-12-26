@@ -1,0 +1,93 @@
+/* The flex item properties are:
+
+order
+flex-grow
+flex-shrink
+flex-basis
+flex
+align-self */
+
+.flex-container-order {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+.flex-container-order > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-container-flex_grow {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+.flex-container-flex_grow > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-container-shrink {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+.flex-container-shrink > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-container-flex_basis {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+.flex-container-flex_basis > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-container-shorthand {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+.flex-container-shorthand > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-container_align_self {
+    display: flex;
+    height: 200px;
+    background-color: #f1f1f1;
+}
+.flex-container_align_self > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}

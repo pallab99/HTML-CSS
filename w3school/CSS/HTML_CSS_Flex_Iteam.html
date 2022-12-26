@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="Flex_Iteam.css">
+    </head>
+    <body>
+        <h1>The order Property</h1>
+
+        <p>Use the order property to sort the flex items as you like:</p>
+
+        <div class="flex-container-order">
+            <div style="order: 3">1</div>
+            <div style="order: 2">2</div>
+            <div style="order: 4">3</div>
+            <div style="order: 1">4</div>
+        </div>
+
+        <h1>The flex-grow Property</h1>
+        <div class="flex-container-flex_grow">
+            <div style="flex-grow: 1">1</div>
+            <div style="flex-grow: 2">2</div>
+            <div style="flex-grow: 3">3</div>
+            <div style="flex-grow: 4">4</div>
+        </div>
+        <h1>The flex-shrink Property</h1>
+
+        <p>Do not let the third flex item shrink as much as the other flex items:</p>
+
+        <div class="flex-container-shrink">
+            <div>1</div>
+            <div>2</div>
+            <div style="flex-shrink: 0">3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div style="flex-shrink: 0;">11</div>
+            <div>12</div>
+            <div>13</div>
+            <div>14</div>
+            <div>15</div>
+            <div>16</div>
+        </div>
+        <h1>The flex-basis Property specifies the initial length of a flex item.</h1>
+
+        <p>Set the initial length of the third flex item to 300 pixels:</p>
+        <div class="flex-container-flex_basis">
+            <div>1</div>
+            <div>2</div>
+            <div style="flex-basis: 300px;">3</div>
+            <div>4</div>
+        </div>
+        <h1>The flex Property</h1>
+        <p>The flex property is a shorthand property for the flex-grow, flex-shrink, and
+            flex-basis properties.</p>
+        <div class="flex-container-shorthand">
+            <div>1</div>
+            <div>2</div>
+            <div style="flex: 0 0 200px;">3</div>
+            <div>4</div>
+        </div>
+
+        <h1>The align-self Property</h1>
+
+        <p>The "align-self: center;" aligns the selected flex item in the middle of the
+            container:</p>
+        <p>The "align-self: flex-start;" aligns the selected flex item at the top of the
+            container.</p>
+        <p>The "align-self: flex-end;" aligns the selected flex item at the bottom of
+            the container.</p>
+        <div class="flex-container_align_self">
+            <div style="align-self: center;">1</div>
+            <div style="align-self: flex-start">2</div>
+            <div style="align-self: flex-end">3</div>
+            <div>4</div>
+        </div>
+    </body>
+</html>
