@@ -1,0 +1,185 @@
+/* The flex container properties are:
+
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content */
+
+.flex-container {
+    display: flex;
+    background-color: rgb(215, 135, 43);
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+}
+.flex-container-1 {
+    display: flex;
+    background-color: dodgerblue;
+    flex-direction: column;
+}
+.flex-container-1 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 75px;
+}
+.flex-container-2 {
+    display: flex;
+    background-color: rgb(27, 214, 99);
+    flex-direction: column-reverse;
+}
+.flex-container-2 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 75px;
+}
+.flex-container-3 {
+    display: flex;
+    background-color: rgb(33, 27, 214);
+    flex-direction: row;
+}
+.flex-container-3 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 75px;
+}
+.flex-container-4 {
+    display: flex;
+    background-color: rgb(214, 27, 198);
+    flex-direction: row-reverse;
+}
+.flex-container-4 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 75px;
+}
+.flex-container-5 {
+    display: flex;
+    background-color: rgb(133, 214, 27);
+    flex-wrap: wrap;
+}
+.flex-container-5 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 75px;
+}
+.flex-container-6 {
+    display: flex;
+    background-color: rgb(214, 27, 46);
+    flex-wrap: wrap-reverse;
+}
+.flex-container-6 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 75px;
+}
+/* 
+The flex-flow Property
+The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties. */
+.flex-container-7 {
+    display: flex;
+    background-color: rgb(214, 173, 27);
+    /* flex-flow: row wrap; */
+    /* flex-flow: column wrap; */
+    flex-flow: row-reverse wrap;
+}
+.flex-container-7 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 75px;
+}
+.flex-container-8 {
+    display: flex;
+    background-color: rgb(214, 173, 27);
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    justify-content: space-between;
+}
+.flex-container-8 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 75px;
+}
+.flex-container-9 {
+    display: flex;
+    background-color: rgb(214, 173, 27);
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+    align-items: baseline;
+    height: 200px;
+}
+.flex-container-9 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 75px;
+}
+.flex-container-10 {
+    display: flex;
+    background-color: rgb(214, 173, 27);
+    height: 200px;
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+.flex-container-10 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 75px;
+}
+
+/* Perfect Centering */
+.flex-container-11 {
+    display: flex;
+    background-color: rgb(214, 173, 27);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container-11 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 75px;
+}
