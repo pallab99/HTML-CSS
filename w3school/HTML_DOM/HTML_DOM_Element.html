@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>JavaScript HTML DOM</h1>
+
+    <h1>Finding HTML Elements by ID and Tag Name</h1>
+    <div id="main">
+      <p>Finding HTML Elements by Tag Name</p>
+      <p>
+        This example demonstrates the <b>getElements ByTagName</b>
+        method.
+      </p>
+      <p>pallab Majumdar</p>
+    </div>
+
+    <h1>Finding HTML Elements by Class Name</h1>
+    <p id="demo"></p>
+
+    <script>
+      x = document.getElementById("main");
+      y = x.getElementsByTagName("p");
+      document.getElementById("demo").innerHTML =
+        'The first paragraph (index 0) inside "main" is: ' + y[0].innerHTML;
+    </script>
+
+    <p>Finding HTML Elements by Class Name.</p>
+    <p class="intro1">Hello World!</p>
+    <p class="intro1">
+      This example demonstrates the <b>getElementsByClassName</b> method.
+    </p>
+
+    <p id="demo2"></p>
+    <script>
+      x1 = document.getElementsByClassName("intro1");
+      document.getElementById("demo2").innerHTML =
+        'The first paragraph (index 0) with class="intro" is: ' +
+        x1[0].innerHTML;
+    </script>
+
+    <h1>Finding HTML Elements by CSS Selectors</h1>
+    <p>Finding HTML Elements by Query Selector</p>
+    <p class="intro3">Hello World!.</p>
+    <p class="intro3">
+      This example demonstrates the <b>querySelectorAll</b> method.
+    </p>
+
+    <p id="demo3"></p>
+
+    <script>
+      x2 = document.querySelectorAll("p.intro3");
+      document.getElementById("demo3").innerHTML =
+        'The first paragraph (index 0) with class="intro" is: ' +
+        x2[0].innerHTML;
+    </script>
+  </body>
+</html>
