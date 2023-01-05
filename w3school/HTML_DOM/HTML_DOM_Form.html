@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function validateForm() {
+            let x = document.forms["myForm"]["fname"].value;
+            let y = document.forms["myForm"]["lname"].value;
+
+            if (x == "") {
+                alert("First Name must be filled out");
+                return false;
+            }
+            if (y == "") {
+                alert("Last Name must be filled out");
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h2>JavaScript Validation</h2>
+
+    <form name="myForm" action="/action_page.php" onsubmit="validateForm()" method="post">
+        First Name: <input type="text" name="fname" />
+        <br />
+        <br />
+        Last Name: <input type="text" name="lname" />
+        <br />
+        <br />
+        <input type="submit" value="submit" />
+    </form>
+
+    <h2>JavaScript Validation</h2>
+    <p>Please input a number between 1 and 10:</p>
+    <input id="numb">
+    <button type="button" onclick="myfunction()">Submit</button>
+    <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" id="demo"></p>
+
+    <script>
+        function myfunction() {
+            let x = document.getElementById("numb").value;
+            let text;
+            if (isNaN(x) || x < 1 || x > 10)
+            text = "Input not valid";
+            else
+            text = "Input is valid";
+            document.getElementById("demo").innerHTML=text;
+        }
+    </script>
+
+    <form action="/action_page.php" method="post">
+        Name: <input type="text" name="name" required />
+        <input type="submit" value="submit" />
+    </form>
+</body>
+
+</html>
