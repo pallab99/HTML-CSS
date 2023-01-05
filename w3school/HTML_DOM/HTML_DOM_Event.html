@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="message()">
+    <h2 onmouseover="style.color='red'" onmouseout="style.color='black'">JavaScript HTML Events</h2>
+
+    <script>
+        function message() {
+            alert("Hello world");
+        }
+    </script>
+    Enter Name: <input type="text" id="name" onchange="uppercase()" onfocus="myfunc(this)">
+    <p>When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
+    <script>
+        function uppercase() {
+            const x = document.getElementById("name");
+            x.value = x.value.toUpperCase();
+        }
+        function myfunc(x) {
+            x.style.background = "red";
+        }
+    </script>
+
+    <button id="mybtn">
+        Try it
+    </button>
+    <p id="demo"></p>
+
+    <script>
+        document.getElementById("mybtn").onclick = displaydate;
+
+        function displaydate() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+    </script>
+
+    <div onmouseover="mover(this)" onmouseout="mout(this)"
+        style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+        Mouse Over Me</div>
+    <script>
+        function mover(obj) {
+            obj.style.backgroundColor = "#1ec5e5";
+            obj.innerHTML = "Hello, world!";
+        }
+        function mout(obj) {
+            obj.style.backgroundColor = "#D94A38";
+            obj.innerHTML = "Mouse Over Me";
+        }
+    </script>
+    <br>
+    <div onmousedown="mdown(this)" onmouseup="mup(this)"
+        style="background-color:#D94A38;width:90px;height:20px;padding:40px;">
+        Click Me </div>
+
+    <script>
+        function mdown(obj) {
+            obj.style.backgroundColor = "#3399ff";
+            obj.innerHTML = "Release Me";
+        }
+        function mup(obj) {
+            obj.style.backgroundColor = "#D94A38";
+            obj.innerHTML = "Thank You";
+
+        }
+    </script>
+</body>
+
+</html>
