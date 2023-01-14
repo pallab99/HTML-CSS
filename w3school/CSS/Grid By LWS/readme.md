@@ -1,1 +1,1 @@
-<b>This is a image gallery created using CSS Grid</b> 
+<b>It is a fully responsive image gallery created using CSS Grid</b> 
